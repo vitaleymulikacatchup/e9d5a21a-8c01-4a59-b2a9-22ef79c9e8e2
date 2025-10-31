@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Coffee, Star, Users, Heart } from 'lucide-react';
+import { Coffee, Star, Users, Heart, Instagram, Linkedin, Twitter, Globe } from 'lucide-react';
 
 export default function Page() {
   return (
@@ -125,11 +125,11 @@ export default function Page() {
               imageAlt: "Portrait of Marie Dubois",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/mariebakes"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/marie-dubois"
                 }
               ]
@@ -143,11 +143,11 @@ export default function Page() {
               imageAlt: "Portrait of James Thompson",
               socialLinks: [
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/jamesthompsonbaker"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://jamesthompsonbaking.com"
                 }
               ]
